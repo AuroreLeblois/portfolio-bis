@@ -1,0 +1,25 @@
+[
+  {
+    "ecole" : "O'Clock",
+    "description" : "Ecole en full remote,Apprentissage du HTML, CSS, SQL et javascript avec node.js, express, session, ect... Manipulations et gestions de base de données. POO. Spécialisation Data. J'ai suivi 3 mois de socle pour apprendre les fondamentaux de la programmation, puis j'ai suivi une spécialisation de 1 mois en data: approfondissement des base de données et requêtes sql, serveur et sécurité des bases pour me spécialiser en back. J'ai ensuite suivi 1 mois de projet en groupe et full remote pour développer un site web",
+    "niv_sortie" :"éligible Bac+2",
+    "begin_date" : "09/12/2019",
+    "end_date" : "25/05/2020"
+  },
+  {
+    "ecole" : "Google Digital Active",
+    "description" : "Apprentissage des fondamentaux du référencement web",
+    "niv_sortie" :"Certification Goolge Digital Active",
+    "begin_date" : "01/11/2016",
+    "end_date" : "01/12/2016"
+  },
+
+  {
+    "ecole" : "Sorbonne Nouvelle",
+    "description" : "Université d'arts de lettres et de langues en spécialisation cinéma et audiovisuel dans laquelle j'ai écrit un demi-mémoire sur la filmographie de Bomklamp",
+    "niv_sortie" :"Bac+4",
+    "begin_date" : "01/09/2011",
+    "end_date" : "01/07/2016"
+  }
+
+]

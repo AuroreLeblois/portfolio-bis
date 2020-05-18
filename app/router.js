@@ -7,8 +7,9 @@ const mainController = require('./controllers/mainController');
 
 //routes principales
 router.get('/', mainController.homePage);
-router.get('/mon_cv', mainController.cvPage);
+router.get('/cv', mainController.cvPage);
 router.get('/realisation', mainController.reaPage);
+router.get('/contact', mainController.formConstact)
 
 
 

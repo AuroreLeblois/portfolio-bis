@@ -1,5 +1,12 @@
 <%- include('partials/header') %>
-<h1>Mon CV</h1>
- 
-<a  class="nav"href="/">Revenir à l'accueil</a>
+<div class="container">
+<h1 class="mx-auto">Mon CV</h1>
+<h2>Ma formation</h2>
+<%for (const ecol of ecole) {%> 
+ <h3><%=ecol.ecole%></h3>
+ <h4><%=ecol.niv_sortie%></h4>
+ <h5><%='De  '+ecol.begin_date + ' à '+ ecol.end_date%></h5>
+ <p><%=ecol.description%></p>
+ <%}%>
+</div>
 <%- include('partials/footer') %>

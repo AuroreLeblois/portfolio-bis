@@ -1,7 +1,8 @@
 const dotenv = require('dotenv');
 const express = require('express');
 const morgan = require('morgan');
-const session = require('express-session')
+const session = require('express-session');
+
 const pg = require('pg');
 dotenv.config();
 
@@ -14,7 +15,7 @@ const app = express();
 app.set('view engine', 'ejs');
 app.set('views', 'app/views');
 
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public/'));
 app.use(express.urlencoded({extended: true}))
 app.use( session( {
   secret: "Je suis Bifrost",
