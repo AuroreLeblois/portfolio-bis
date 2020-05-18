@@ -50,7 +50,7 @@ INSERT INTO "langue"("langue", "niveau") VALUES
 
 DROP TABLE IF EXISTS "informatique";
 
-CREATE TABLE IF EXISTS "informatique"(
+CREATE TABLE IF NOT EXISTS "informatique"(
     "id" SERIAL NOT NULL,
     "langage" VARCHAR(300),
     "level" INT NOT NULL,
@@ -64,4 +64,4 @@ INSERT INTO "informatique" ("langage", "level") VALUES
 ("Node.js", 90),
 ("espress", 80),
 ("ejs", 100),
-("React",50),
+("React",40),
