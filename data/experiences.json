@@ -1,0 +1,37 @@
+[
+    {
+        "poste": "Etudiante Développeur web fullstack javascript",
+        "entreprise": "O'Clock",
+         "description": "Apprentissage des bases HTML, CSS, SQL, Javascript. Prise en main de projets profiessionels. Intégration web. Prise en main de React et spécialisation en data science.",
+         "begin_date": "09/12/2019",
+        "end_date": "25/05/2020"
+    },
+    {
+        "poste": "Vendeuse",
+        "entreprise": "Parashop",
+        "description": "Vente de produit d'hygiène et de beauté. Encaissement. Argumentation de vente. Fidélisation client. Entretien magasin, réassort",
+        "begin_date": " 25/10/2018",
+        "end_date": "01/07/2019"
+    },
+    {
+        "poste": "Vendeuse",
+        "entreprise": "Nature et Découvertes",
+        "description":  "Vente de produit dans divers univers. Encaissement. Argumentation commerciale. Fidélisation de plus de 1500 client sur la période de mon CDD. Réassort",
+        "begin_date": "01/04/2017",
+        "end_date": "02/03/2018"
+    },
+    {
+        "poste": "Billettiste",
+        "entreprise": "Château de Versailles",
+        "description": "Vente de billets pour les spectacles extérieurs. Assurer le respect des règles de sécurité dans les jardins",
+        "begin_date": "15/03/2016",
+        "end_date": "01/11/2016"
+    },
+    {
+        "poste": "Auto-entrepreneuse",
+        "entreprise": "Moi",
+        "description": "Babysitting(2011-2013), Professeur particulier (2013-2014)",
+        "begin_date": "01/09/2011",
+        "end_date": "01/09/2014"
+    }
+]

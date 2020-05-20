@@ -1,40 +1,41 @@
 body{
     display: flex;
     flex-direction: column;
-    margin-left: 2%;
     height: 100%;
 }
-header{
-    width: 98%;
-    justify-items: center;
+.main{
+    position: relative;
+    height: 100%;
+}
+.container{
+    text-align: center;
 }
 h1{ 
     width: 100%; 
     font-size: 2em;
-    font-weight: bold;
-   
+    font-weight: bold;  
 }
 span{
     width: 100%;
-   
     color: white;
 }
 .btn{
-font-size:2em;
+font-size:1.5em;
 }
 .card-body{
     display: inline-block;
 }
 p{
-    margin-bottom: 1em;
+    margin-top: 1.5em;
+    margin-bottom: 5em;
 }
 a{
-    color: white;
+    color:rgba(0,0,0,.5);
     text-decoration: none;
     text-transform: none;
 }
 a:hover{
-    color: white;
+    color: rgba(0,0,0,.5);
     text-decoration: none;
 }
 .card, .text-center{
@@ -42,9 +43,7 @@ a:hover{
     margin-bottom: 1em;
     margin-top: 2em;
 }
-
-footer{
-    width: 95%;
-    position: fixed;
-    margin-bottom: 0;
+.size{   
+    max-width: 150px;
+    max-height: 50px;
 }

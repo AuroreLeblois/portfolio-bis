@@ -1,7 +1,7 @@
 [
   {
     "ecole" : "O'Clock",
-    "description" : "Ecole en full remote,Apprentissage du HTML, CSS, SQL et javascript avec node.js, express, session, ect... Manipulations et gestions de base de données. POO. Spécialisation Data. J'ai suivi 3 mois de socle pour apprendre les fondamentaux de la programmation, puis j'ai suivi une spécialisation de 1 mois en data: approfondissement des base de données et requêtes sql, serveur et sécurité des bases pour me spécialiser en back. J'ai ensuite suivi 1 mois de projet en groupe et full remote pour développer un site web",
+    "description" : "Ecole en full remote.Apprentissage du HTML, CSS, SQL et javascript avec node.js, express, session, pg,ejs, AJAX,... Manipulations et gestions de base de données. POO. Spécialisation Data. J'ai suivi 3 mois de socle pour apprendre les fondamentaux de la programmation, puis j'ai suivi une spécialisation de 1 mois en data: approfondissement des base de données et requêtes sql, serveur et sécurité des bases pour me spécialiser en back. J'ai ensuite suivi 1 mois de projet en groupe et full remote pour développer un site web en collaboration avec 3 autres développeurs.",
     "niv_sortie" :"éligible Bac+2",
     "begin_date" : "09/12/2019",
     "end_date" : "25/05/2020"

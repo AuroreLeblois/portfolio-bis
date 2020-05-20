@@ -9,7 +9,8 @@ const mainController = require('./controllers/mainController');
 router.get('/', mainController.homePage);
 router.get('/cv', mainController.cvPage);
 router.get('/realisation', mainController.reaPage);
-router.get('/contact', mainController.formConstact)
+router.get('/contact', mainController.formConstact);
+router.get('/style.css', mainController.stylePage)
 
 
 

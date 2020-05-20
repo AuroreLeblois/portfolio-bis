@@ -8,5 +8,13 @@
  <h5><%='De  '+ecol.begin_date + ' à '+ ecol.end_date%></h5>
  <p><%=ecol.description%></p>
  <%}%>
+ <h2>Mes expériences</h2>
+<%for(exp of experience){%>
+<h3><%=exp.poste%></h3>
+<h4><%=exp.entreprise%></h4>
+<h5><%='De  '+exp.begin_date + ' à '+exp.end_date%></h5>
+<p><%=exp.description%></p>
+<%}%>
+
 </div>
 <%- include('partials/footer') %>
