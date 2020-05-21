@@ -85,6 +85,7 @@ li, p{
 @media (min-width: 992px) { 
     .half{
         width: 47%;
+        height: 100%;
         display:inline-block;
     }
 }
