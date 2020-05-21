@@ -2,8 +2,7 @@ const dotenv = require('dotenv');
 const express = require('express');
 const morgan = require('morgan');
 const session = require('express-session');
-
-const pg = require('pg');
+var bodyParser = require('body-parser');
 dotenv.config();
 
 const PORT = process.env.PORT || 1234;
@@ -14,7 +13,7 @@ const app = express();
 
 app.set('view engine', 'ejs');
 app.set('views', 'app/views');
-
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/public/'));
 app.use(express.urlencoded({extended: true}))
 app.use( session( {

@@ -1,0 +1,14 @@
+[
+    {
+        "langage":"anglais",
+        "niveau":"lu/écrit/parlé"
+    },
+    {
+        "langage":"français",
+        "niveau":"langue maternelle"
+    },
+    {
+        "langage":"espagnol",
+        "niveau":"débutant"
+    }
+]

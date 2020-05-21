@@ -1,20 +1,35 @@
 <%- include('partials/header') %>
 <div class="container">
 <h1 class="mx-auto">Mon CV</h1>
-<h2>Ma formation</h2>
-<%for (const ecol of ecole) {%> 
- <h3><%=ecol.ecole%></h3>
- <h4><%=ecol.niv_sortie%></h4>
- <h5><%='De  '+ecol.begin_date + ' à '+ ecol.end_date%></h5>
- <p><%=ecol.description%></p>
- <%}%>
- <h2>Mes expériences</h2>
-<%for(exp of experience){%>
-<h3><%=exp.poste%></h3>
-<h4><%=exp.entreprise%></h4>
-<h5><%='De  '+exp.begin_date + ' à '+exp.end_date%></h5>
-<p><%=exp.description%></p>
-<%}%>
+    <h2>Ma formation</h2>
+        <%for (const ecol of ecole) {%> 
+            <h3><%=ecol.ecole%></h3>
+                <h4><%=ecol.niv_sortie%></h4>
+                    <h5><%='Du  '+ecol.begin_date + ' au '+ ecol.end_date%></h5>
+                    <p><%=ecol.description%></p>
+        <%}%>
+    <h2>Mes expériences</h2>
+        <%for(exp of experience){%>
+            <h3><%=exp.poste%></h3>
+                <h4><%=exp.entreprise%></h4>
+                    <h5><%='Du  '+exp.begin_date + ' au '+exp.end_date%></h5>
+                    <p><%=exp.description%></p>
+        <%}%>
+    <h2>Mes langues connues</h2>
+        <ul>
+            <%for(const lg of lang){%>
+   
+                <li><%=lg.langage%> : <%=lg.niveau%></li>
 
+            <%}%>
+        </ul>
+<ul>
+    <h2>Mes technologies</h2>
+            <%for (const it of IT){%>
+                <li><%=it.IT%> : <div class="progress">
+                    <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" style="width: <%=it.niv%>%" aria-valuenow=<%=it.niv%> aria-valuemin="0" aria-valuemax="100"></div>
+                  </div></li>
+            <%}%>
+</ul>
 </div>
 <%- include('partials/footer') %>
