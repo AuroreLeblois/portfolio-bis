@@ -1,21 +1,26 @@
 <%- include('partials/header') %>
 <div class="container">
-<h1 class="mx-auto">Mon CV</h1>
-    <h2>Ma formation</h2>
+<h1 class="mx-auto" META name="keywords" content="CV Aurore Leblois">Mon CV</h1>
+<article class="half">
+    <h2 META name="keywords" content="formation Aurore Leblois">Ma formation</h2>
         <%for (const ecol of ecole) {%> 
             <h3><%=ecol.ecole%></h3>
                 <h4><%=ecol.niv_sortie%></h4>
                     <h5><%='Du  '+ecol.begin_date + ' au '+ ecol.end_date%></h5>
                     <p><%=ecol.description%></p>
         <%}%>
-    <h2>Mes expériences</h2>
+</article>
+<article class="half">
+    <h2 META name="keywords" content="expérience Aurore Leblois">Mes expériences</h2>
         <%for(exp of experience){%>
             <h3><%=exp.poste%></h3>
                 <h4><%=exp.entreprise%></h4>
                     <h5><%='Du  '+exp.begin_date + ' au '+exp.end_date%></h5>
                     <p><%=exp.description%></p>
         <%}%>
-    <h2>Mes langues connues</h2>
+</article>
+        <article class="half">
+    <h2  META name="keywords" content="langues Aurore Leblois">Mes langues connues</h2>
         <ul>
             <%for(const lg of lang){%>
    
@@ -23,13 +28,17 @@
 
             <%}%>
         </ul>
-<ul>
-    <h2>Mes technologies</h2>
+    </article>
+    <article class="half">
+    <h2 META name="keywords" content="maitrise informatique Aurore Leblois">Mes technologies</h2>
+        <ul class="bars rows">
+  
             <%for (const it of IT){%>
-                <li><%=it.IT%> : <div class="progress">
+                <li class="col-6"><%=it.IT %> <div class="progress">
                     <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" style="width: <%=it.niv%>%" aria-valuenow=<%=it.niv%> aria-valuemin="0" aria-valuemax="100"></div>
-                  </div></li>
+                </div></li>
             <%}%>
-</ul>
+        </ul>
+    </article>
 </div>
 <%- include('partials/footer') %>

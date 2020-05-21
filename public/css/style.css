@@ -16,6 +16,7 @@ h1{
     width: 100%; 
     font-size: 2em;
     font-weight: bold;  
+    margin-top: 1em;
 }
 span{
     width: 100%;
@@ -58,4 +59,32 @@ a:hover{
     margin-bottom: 5em;
     max-height: 450px;
 }
+.hidden{
+    display: none;
+}
+ul{
+    list-style: none;
+}
+li, p{
+    display:flex;
+    align-items: center;
+}
+.bars li{
+    max-width: 90%;
+    margin-bottom: .5em;
+    display: flex;
+   justify-content: space-between;
 
+}
+.progress{
+   width: 70%;
+   display: flex;
+
+}
+
+@media (min-width: 992px) { 
+    .half{
+        width: 47%;
+        display:inline-block;
+    }
+}
