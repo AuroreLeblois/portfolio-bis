@@ -1,28 +1,38 @@
 <%- include('partials/header') %>
 <div class="container form">
-    <form class="d-flex flex-column bd-highlight mb-3" action="Post">
+  <article class="half">
+  <div class="card-body">
+    <form id="my-form" class="d-flex flex-column bd-highlight mb-3" action="mailto:aurore-leblois@hotmail.fr" method="post" enctype="text/plain">
   
       <label for="fname">Prénom</label>
-      <input type="text" id="fname" name="firstname" placeholder="Votre prénom">
+      <input type="text" id="fname" name="firstname" placeholder="Votre prénom" required>
   
       <label for="lname">Nom</label>
-      <input type="text" id="lname" name="lastname" placeholder="Votre nom">
+      <input type="text" id="lname" name="lastname" placeholder="Votre nom" required>
+      <label for="lname">Email</label>
+      <input type="text" id="lemail" name="lastname" placeholder="Votre email" required>
   
       <label for="subject">Sujet</label>
-      <textarea id="subject" name="subject" placeholder="Un petit mot pour comprendre ce que vous désirez" style="height:200px"></textarea>
+      <textarea id="subject" name="subject" placeholder="Un petit mot pour comprendre ce que vous désirez" style="height:200px" required></textarea>
   
       <input type="submit" value="Submit" class="btn btn-info size">
   
     </form>
   </div>
-
-  <div class="card" style="width: 15rem;">
+  
+</article>
+<article class="half">
+  <div class="card not-there">
     <div class="card-body">
-      <h5 class="card-title">Autre contact</h5>
+      <h5 class="card-title">Autres contacts</h5>
       <p class="card-text">Vous pouvez également me retrouver sur linkedin</p>
-      <a href="https://www.linkedin.com/in/aurore-leblois/"  target="_blank" class="btn btn-primary">Mon linkedin</a>
+      <a href="https://www.linkedin.com/in/aurore-leblois/"  target="_blank" class="btn btn-info">Mon linkedin</a>
+      <p class="card-text">Ou regarder mes dossiers git</p>
+      <a href="https://github.com/AuroreLeblois"  target="_blank" class="btn btn-info"> Mon Github </a>
     </div>
   </div>
+</article>
 
+</div>
 
 <%- include('partials/footer') %>

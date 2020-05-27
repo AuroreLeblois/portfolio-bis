@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 100%;
 }
 .main{
     position: relative;
@@ -9,8 +10,9 @@ body{
 }
 .container{
     text-align: center;
-    text-justify: newspaper;
+    text-justify: justify;
     margin-bottom: 7em;
+    width: 100%;
 }
 h1{ 
     width: 100%; 
@@ -43,7 +45,7 @@ a:hover{
 }
 .card, .text-center{
     margin-right: 3%;
-    margin-bottom: 1em;
+    margin-bottom: 5em;
     margin-top: 2em;
 }
 .size{   
@@ -82,10 +84,30 @@ li, p{
 
 }
 
+.avatar{
+    max-width: 50%;
+}
+.half .card-body{
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (min-width: 992px) { 
+    .hidden{
+        display: block;
+    }
+   .not-there{
+       width:100%;
+       margin-top: 3em;
+       justify-content: center;
+   }
     .half{
         width: 47%;
         height: 100%;
         display:inline-block;
+    }
+    .avatar{
+        max-width: 25%;
     }
 }
