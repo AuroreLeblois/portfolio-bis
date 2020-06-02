@@ -102,6 +102,25 @@ li, p{
 .progress{
     width: 60%;
 }
+.loupe-container{
+    width: 90%;
+    height: 500px;
+}
+.giant{
+    justify-content: center;
+    font-size: 404%;
+    color:#17A2B8;
+}
+.loupe{
+    color:#17A2B8;
+    animation: 3s linear 1s infinite running;
+}
+.loupe{
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
 
 @media (min-width: 992px) { 
     .not-there{
