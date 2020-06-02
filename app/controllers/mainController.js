@@ -19,6 +19,9 @@ const mainController = {
   stylePage:(req,res)=>{
     res.render('/style.css')
   },
+  notFoundPage:(req,res)=>{
+    res.render('404')
+  }
 }
 
 module.exports = mainController;

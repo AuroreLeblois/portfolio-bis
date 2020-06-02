@@ -10,8 +10,8 @@ router.get('/', mainController.homePage);
 router.get('/cv', mainController.cvPage);
 router.get('/realisation', mainController.reaPage);
 router.get('/contact', mainController.formConstact);
-router.get('/style.css', mainController.stylePage)
-
+router.get('/style.css', mainController.stylePage);
+router.use( (req, res) => {res.status(404).render('404')} );
 
 
 
