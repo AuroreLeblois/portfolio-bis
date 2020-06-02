@@ -9,6 +9,7 @@ body{
     height: 100%;
 }
 .container{
+    justify-content: space-around;
     text-align: center;
     text-justify: justify;
     margin-bottom: 7em;
@@ -89,17 +90,26 @@ li, p{
 }
 .half .card-body{
     width: 95%;
-    justify-content: center;
+    margin-left: 0%;
+    justify-content: space-between;
     align-items: center;
+}
+.bar .rows{
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+}
+.progress{
+    width: 60%;
 }
 
 @media (min-width: 992px) { 
-    .hidden{
-        display: block;
+    .not-there{
+        margin-top: 0px;
+        display:flex;
     }
    .not-there{
        width:100%;
-       margin-top: 3em;
        justify-content: center;
    }
     .half{

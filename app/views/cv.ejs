@@ -2,7 +2,7 @@
 <div class="container">
 <h1 class="mx-auto" META name="keywords" content="CV Aurore Leblois">Mon CV</h1>
 <article class="half">
-    <span style="font-size: 16em; color:#17a2b8 ;"class="hidden">
+    <span style="font-size: 16em; color:#17a2b8 ;"class="hidden not-there">
         <i class="fas fa-graduation-cap"></i>
       </span>
     <h2 META name="keywords" content="formation Aurore Leblois">Ma formation</h2>
@@ -23,7 +23,7 @@
         <%}%>
 </article>
         <article class="half">
-            <span style="font-size: 16em; color:#17a2b8 ;" class="hidden">
+            <span style="font-size: 16em; color:#17a2b8 ;" class="hidden not-there">
                 <i class="fas fa-language"></i>
               </span> 
           
@@ -41,7 +41,7 @@
         <ul class="bars rows">
   
             <%for (const it of IT){%>
-                <li class="col-6"><%=it.IT %> <div class="progress">
+                <li class="col-9"><%=it.IT %> <div class="progress">
                     <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" role="progressbar" style="width: <%=it.niv%>%" aria-valuenow=<%=it.niv%> aria-valuemin="0" aria-valuemax="100"></div>
                 </div></li>
             <%}%>
